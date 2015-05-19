@@ -1,0 +1,13 @@
+language: java
+
+jdk:
+- oraclejdk8
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: VybrQ6DORUBvKpCM6IeDKbgPkdcX6nvCFgU39Gah36CK2ej36oVlMioHOy0K5DyqA3qkaYo/AWv65hH2jPQuBPCb1e1bhaq2ewf0p5aAtBIXJueSeIsPJOnTHgHzSA+oY5usuXVTPqATVhypAd8QGb8qjQTJv0vaTojgy0jFtq55mrzQVsma62oa2T1aK/9CfOyvUBfgOUVKpIcdA+enesXFuuIWRHZOwKpqezHrKN4qChUYbrd+kay+N7cz6RDLAkYKQbIIGrln3dMwhZYWHRipAa/EQRwZo4s8B5zVjjyqmjFIo3FI2bSeJDiwQATxoA+xHYz5t0OVnk5JRfFXnFhP/dMMTXhnk82tn1oK4NsYBynTx0n2jY58sC7jlzBIW2lwTXiat1q7EZdKl0yhxu1pW/5CMXWRpRDK77Tnx5BxceF8Pb25mgMzry9PRGPRostzmvnw+k34GzWDJCnIcXjEh6odjICIxzc/dvjpgE/GlKCywl53FYh3kI3M8WlapcJ8r3kcTu3aypV6j/46m/idU3b8bWxsZ4Qab4B4ebdoxsJVVyjeBbtgP2aLyiRQWaQaS/HRCVjiVHnC8NZnrU8G3NGj5bH5EVXlpUv7yjI4LuV17F9C/xHPpIc4bPJI0PGVrKCypNSia1OM/Lovj2TbzEXqZKXRC0xhXfnZJn0=
+  app: react-chat
+  on:
+    branch: master
+
