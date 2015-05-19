@@ -1,0 +1,4 @@
+server:
+  port: 8000
+app:
+  asset-host: localhost:8080
