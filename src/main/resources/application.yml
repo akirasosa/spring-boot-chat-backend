@@ -1,4 +1,27 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+  jade4j:
+    caching: false
+    prettyPrint: true
 server:
   port: 8000
+logging:
+  level:
+    hello: DEBUG
 app:
   asset-host: localhost:8080
+---
+spring:
+  profiles: production
+endpoints:
+  enabled: false
+  health.enabled: true
+app:
+  asset-host: akirasosa.github.io/react-chat
+
+
+
